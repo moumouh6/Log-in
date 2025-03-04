@@ -65,8 +65,8 @@ label {
     margin-top: 10px;
 }
 
+
 input {
-    width: 100%;
     padding: 12px;
     margin: 5px 0;
     border: 1px solid #ddd;
@@ -77,6 +77,9 @@ input {
 /* Mot de passe avec icône */
 .password-container {
     position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .password-container input {
@@ -94,32 +97,9 @@ input {
 /* Options (Se souvenir de moi + Mot de passe oublié) */
 .options {
     display: flex;
-    justify-content: space-between;
+    justify-content:end;
     align-items: center;
     margin-top: 10px;
-}
-
-.options label {
-    font-size: 14px;
-    font-weight: bold;
-    min-width: 150px;
-    margin-bottom: 10px;
-    margin-left: 5px;
-
-
-}
-
-.checkbox {
-    display: flex; 
-    align-items: center;
-    margin-right: 5px; /* Pour espacer la checkbox du texte */
-}
-
-.checkbox input {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
 }
 
 .options a {
