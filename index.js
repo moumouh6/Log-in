@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const redirectButton = document.querySelector(".btn-submit1");
     if (redirectButton) {
         redirectButton.addEventListener("click", function () {
-            window.location.href = "https://am11iin.github.io/sign-in/";
+            window.location.href = "https://moumouh6.github.io/sign-in-/";
         });
     }
 });
