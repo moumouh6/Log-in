@@ -26,12 +26,22 @@ document.addEventListener("DOMContentLoaded", function () {
         // Vérification des identifiants
         const validEmail = "moumouhalem6@gmail.com";
         const validPassword = "123456";
+        const validEmail1 = "sellamiamine@gmail.com";
+        const validPassword1 = "123456";
+        const validEmail2 = "Bazouzimohammed@gmail.com";
+        const validPassword2 = "123456";
 
         if (email === validEmail && password === validPassword) {
             // Redirection vers le tableau de bord
             window.location.href = "https://moumouh6.github.io/Users-Dashboard/";
-        } else {
-            alert("Email ou mot de passe incorrect.");
+        } else { if(email === validEmail1 && password === validPassword1){
+            window.location.href = "https://am11iin.github.io/dashboard-teacher/";
+            } else{if(email === validEmail2 && password === validPassword2){
+                window.location.href = "https://malak-bou.github.io/RH-dashboard/";
+            }else {
+                alert("Email ou mot de passe incorrect.");
+            }
+            }
         }
     });
 
